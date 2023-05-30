@@ -8,5 +8,7 @@
 </head>
 <body>
 <p>aaa</p>
+
+<a href="./UserServlet">gg</a>
 </body>
 </html>
