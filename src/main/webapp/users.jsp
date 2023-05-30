@@ -15,6 +15,7 @@
                 <th>ID</th>
                 <th>Username</th>
                 <th>Password</th>
+                 <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -24,6 +25,7 @@
                     <td><%= user.getId() %></td>
                     <td><%= user.getUsername() %></td>
                     <td><%= user.getPassword() %></td>
+                    <td><a href="Delete?id=<%= user.getId() %>">xóa</a></td>
                 </tr>
             <% } %>
         </tbody>
