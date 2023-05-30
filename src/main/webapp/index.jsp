@@ -10,5 +10,21 @@
 <p>aaa</p>
 
 <a href="./UserServlet">gg</a>
+
+<form action="Insert" method="post">
+<table>
+<tr>
+<td><input type="text" name="username"> username</td>
+</tr>
+<tr>
+<td><input type="password" name="password"> pass</td>
+</tr>
+<tr>
+<td><input type="submit"  > </td>
+</tr>
+</table>
+
+
+</form>
 </body>
 </html>
